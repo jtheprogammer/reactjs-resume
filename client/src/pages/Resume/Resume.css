@@ -1,0 +1,208 @@
+.section {
+  padding: 15px 0 0 20px;
+}
+
+.section .section_title {
+  margin-bottom: 20px;
+}
+
+.section#service {
+  margin-top: 80px;
+  position: relative;
+  top: 40px;
+  margin-bottom: 20px;
+}
+
+#resume_title {
+  margin-bottom: 12.5px;
+}
+
+.section .section_title#experience {
+  height: 500px;
+  margin-bottom: 45px;
+}
+
+.section .section_title#skills {
+  position: relative;
+  bottom: 7.5px;
+}
+
+.section .section_title#service {
+  margin-top: 25px;
+}
+
+.section .about_me_text {
+  /* allows for new line via \n to work */
+  white-space: pre-line;
+  color: darkslategray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+  bottom: 5px;
+  font-size: 20px;
+}
+
+.timeline_content .exp_title {
+  position: relative;
+  bottom: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+}
+
+.timeline_content .exp_location {
+  position: relative;
+  color: #73777b;
+  bottom: 25px;
+  left: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 13px;
+}
+
+.timeline_content .exp_timeframe {
+  position: relative;
+  color: #73777b;
+  bottom: 25px;
+  left: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 13px;
+}
+
+.timeline_content .exp_description {
+  position: relative;
+  color: #01011abf;
+  bottom: 25px;
+  left: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  width: 80%;
+  white-space: pre-line;
+  text-align: left;
+}
+
+.MuiTypography-root.timeline_header.MuiTypography-h6 {
+  position: relative;
+  left: 3px;
+}
+
+.exp_tl {
+  position: relative;
+  top: 12px;
+}
+
+.timeline_holder {
+  overflow-y: scroll;
+  height: 100%;
+  border-style: solid;
+  border-color: lightgray;
+  padding-top: 17.5px;
+  padding-left: 65px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Inner Timeline Scrollbar */
+.section ::-webkit-scrollbar {
+  border-radius: 20px;
+  width: 10px;
+}
+
+.section ::-webkit-scrollbar-button {
+  border-radius: 20px;
+  background-color: black;
+  height: 4%;
+}
+
+.section ::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: lightslategray;
+  background-color: white;
+}
+
+.section ::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background-color: var(--main-color);
+}
+
+/* using span to make a small break between location and timeframe */
+#loc_tf_spacing {
+  display: block;
+  margin-bottom: -0.4em;
+}
+
+/* Skills */
+
+.skills_container_holder {
+  margin-left: 25px !important;
+}
+
+.skill_item {
+  height: 100px;
+}
+
+.skill_list {
+  border-style: solid;
+  display: flex;
+  margin: 15px 0 30px 0;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  padding: 3px 0;
+}
+
+.skill_list#skills_data {
+  width: 60%;
+  margin-left: 13%;
+  position: relative;
+  left: 8%;
+}
+
+.skill_title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+  margin: -8px 0 -15px -45px !important;
+  text-align: center;
+  position: relative;
+  right: 3.5%;
+}
+
+.skills_half#left {
+  display: inline-block;
+  position: relative;
+  left: 25px;
+}
+
+.skills_half#right {
+  display: inline-block;
+  position: relative;
+  left: 25px;
+}
+
+.skills_half#center_bottom {
+  margin-left: 13px;
+  position: relative;
+  right: 10px;
+}
+
+/* Services and Expertise */
+.service_item_content {
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  padding-right: 20px;
+}
+
+.service_item_content > p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.service_item_content .service_item_title {
+  font-weight: 600;
+  font-size: 18.5px;
+}
+
+.service_item_content .service_item_description {
+  font-size: 15px;
+  color: #7f8487;
+}

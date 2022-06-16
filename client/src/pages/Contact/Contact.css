@@ -1,0 +1,22 @@
+.form_container {
+  text-align: justify;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.form_container input {
+  border-radius: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.form_container textarea {
+  border-radius: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#form_enter_message {
+  margin-bottom: 10px;
+}
+
+.button_item {
+  margin-bottom: 10px !important;
+}
