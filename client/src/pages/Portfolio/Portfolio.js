@@ -75,11 +75,19 @@ const Portfolio = () => {
         </Grid>
         {/* Projects */}
         <Grid item xs={12}>
-          <Grid container spacing={3}>
+          <Grid
+            className="card_container"
+            container
+            spacing={6}
+            style={{ marginLeft: 0 }}
+          >
             {portfolioData.projects.map((project) => (
               <>
                 {tabValue === project.tag || tabValue === "all" ? (
-                  <Grid item>
+                  <Grid 
+                    item
+                    style={{ paddingLeft: "40px" }}
+                  >
                     <Grow in timeout={1000}>
                       <Card
                         className="card"

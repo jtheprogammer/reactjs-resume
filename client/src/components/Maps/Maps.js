@@ -11,7 +11,21 @@ import {
 } from "@react-google-maps/api";
 
 const googleMapsApiKey = process.env.REACT_APP_API_KEY;
-const coordinates = { lat: 40.8506, lng: -73.877 };
+const coordinates = { lat: 40.825, lng: -73.89 };
+
+const circleOptions = {
+  strokeColor: "#0000FF",
+  strokeOpacity: 0.9,
+  strokeWeight: 2,
+  fillColor: "#0000FF",
+  fillOpacity: 0.2,
+  clickable: false,
+  draggable: false,
+  editable: false,
+  visible: true,
+  radius: 4200,
+  zIndex: 1,
+};
 
 const Maps = () => {
   const classes = useStyles();
@@ -42,11 +56,12 @@ const Maps = () => {
           mapTypeControl: false,
           streetViewControl: false,
           fullscreenControl: false,
+          radius: 5000,
         }}
         onLoad={(map) => setMap(map)}
       >
         <Marker position={coordinates} />
-        <Circle position={coordinates} radius={3000} />
+        <Circle center={coordinates} options={circleOptions} />
       </GoogleMap>
     </div>
   );

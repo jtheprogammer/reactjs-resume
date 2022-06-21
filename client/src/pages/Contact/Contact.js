@@ -40,7 +40,6 @@ const Contact = () => {
               minRows={4}
             />
           </Grid>
-          {/* Submit Form Button */}
           <Grid container className="form_submit">
             <Grid item className="button_item">
               <CustomButton text="Submit" />

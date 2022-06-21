@@ -16,16 +16,11 @@
   font-weight: 600;
 }
 
-.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3.css-zow5z4-MuiGrid-root {
-  justify-content: center;
-  padding-right: 15px !important;
-}
-
 /* Cards */
 .card {
-  height: 100% !important;
-  border-radius: 5px !important;
-  margin-top: 7.5% !important;
+  height: 100%;
+  border-radius: 5px;
+  margin-top: 7.5%;
   overflow: hidden;
   min-width: 300px;
   max-width: 300px;

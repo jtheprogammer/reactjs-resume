@@ -13,10 +13,10 @@ function App() {
   return (
     <Container className="top">
       <Grid container spacing={7} style={{ minHeight: "100vh" }}>
-        <Grid item xs={12} sm={12} md={4} lg={3}>
+        <Grid className="profile_container" item xs={12} sm={12} md={4} lg={3}>
           <Profile />
         </Grid>
-        <Grid item xs style={{ backgroundColor: "#ffcd38" }}>
+        <Grid className="content_container" item xs>
           <Router>
             <Header />
             <div className="main_content profile_container_shadow">

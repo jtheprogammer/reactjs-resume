@@ -1,4 +1,4 @@
-import { Web, Code } from "@mui/icons-material"
+import { Web } from "@mui/icons-material"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
@@ -59,7 +59,7 @@ const skillsAndServices = {
       title: "Web Development",
       description:
         "Adept at utilizing HTML, CSS and ReactJS to create aesthetic and interactive UIs.",
-      icon: <Web style={{ fontSize: "30px", position: "relative", bottom: "10px", right: "2.2px" }} />,
+      icon: <Web style={{ fontSize: "30px", position: "relative", bottom: "10px", right: "2.5px" }} />,
     },
     {
       title: "Software Development",
@@ -83,7 +83,7 @@ const skillsAndServices = {
         "Adept understanding of concepts pertaining hardware, networking and cybersecurity.",
       icon: (
         <GrServerCluster
-        style={{ fontSize: "25px", position: "relative", bottom: "10px" }}
+        style={{ fontSize: "22px", position: "relative", bottom: "9px" }}
         />
       ),
     },
@@ -147,10 +147,9 @@ const skillsAndServices = {
           style={{
             position: "relative",
             bottom: "4px",
-            fontSize: "22px",
+            fontSize: "20px",
             backgroundColor: "black",
-            padding: "0.5px",
-            borderRadius: "10px",
+            borderRadius: "20px"
           }}
         />
       ),
@@ -238,7 +237,7 @@ const skillsAndServices = {
           color="#ff9d00"
           style={{
             position: "relative",
-            bottom: "5px",
+            bottom: "3.5px",
             right: "1.5px",
             fontSize: "20px",
           }}
@@ -518,7 +517,7 @@ const skillsAndServices = {
         ),
       },
       {
-        feature: "MongoDB",
+        feature: "Firebase",
         icon: (
           <SiFirebase
             style={{

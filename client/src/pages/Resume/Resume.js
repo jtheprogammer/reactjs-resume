@@ -288,7 +288,7 @@ const Resume = () => {
           <span />
           <h6>{resumeData.my_services.title}</h6>
         </Grid>
-        <Grid item xs={12} className="services_container_holder">
+        <Grid item xs={12} className="service_container_holder">
           <Grid container className="service_item">
             {Object.keys(skillsAndServices.services).map((service) => (
               <Grid
